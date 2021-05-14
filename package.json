@@ -1,0 +1,37 @@
+{
+    "name": "wincowin",
+    "version": "1.0.0",
+    "description": "fetch vaccine info",
+    "main": "dist/main.js",
+    "scripts": {
+        "build": "rimraf dist && tsc",
+        "test": "npm run test",
+        "tsc": "tsc",
+        "start": "ts-node -r tsconfig-paths/register src/main.ts",
+        "start:debug": "NODE_ENV=\"dev\" npm run build && ts-node -r tsconfig-paths/register src/main.ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vipulsb/wincowin.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/vipulsb/wincowin/issues"
+    },
+    "homepage": "https://github.com/vipulsb/wincowin#readme",
+    "devDependencies": {},
+    "dependencies": {
+        "@types/node": "^15.0.2",
+        "axios": "^0.21.1",
+        "config": "^3.1.0",
+        "date-fns": "^2.21.3",
+        "express": "^4.17.1",
+        "node-telegram-bot-api": "^0.53.0",
+        "nodemon": "^2.0.7",
+        "object-hash": "^2.1.1",
+        "ts-node": "^8.1.0",
+        "tsconfig-paths": "^3.8.0",
+        "typescript": "^4.2.4"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "telegram": {
+        "bots": {
+            "wincowin": "<token>"
+        },
+        "channels": {
+            "wincowin": 121451215
+        },
+        "groups": {
+            "wincowin": 4546464,
+            "vaccine_availability": 2645124
+        }
+    },
+    "districts": [
+        { "name": "raigad", "id": 393 },
+        { "name": "mumbai", "id": 395 },
+        { "name": "thane", "id": 392 }
+    ]
+}
